@@ -1,0 +1,407 @@
+/*
+Theme Name: Avada Child
+Description: Child theme for Avada theme
+Author: ThemeFusion
+Author URI: https://theme-fusion.com
+Template: Avada
+Version: 1.0.0
+Text Domain:  Avada
+*/
+
+.fusion-page-title-bar-center h1 {text-transform:uppercase;}
+
+.fusion-breadcrumbs a {color:#ababab;}
+
+.single_job_listing .date-posted, .job_listings .date { display: none; }
+.job_listings ul.meta .date { display:none !important; }
+
+.rp4wp-related-job_listing>ul li.job_listing a div.location,
+.rp4wp-related-job_listing>ul li.no_job_listings_found a div.location,
+ul.job_listings li.job_listing a div.location,
+ul.job_listings li.no_job_listings_found a div.location {
+	float: left;
+	text-align: left;
+	width: 24%;
+	padding: 0 0 0 1em;
+	color: #999;
+	line-height: 1.5em
+}
+
+.rp4wp-related-job_listing>ul li.job_listing a .meta,
+.rp4wp-related-job_listing>ul li.no_job_listings_found a .meta,
+ul.job_listings li.job_listing a .meta,
+ul.job_listings li.no_job_listings_found a .meta {
+	float: right;
+	text-align: right;
+	width: 21%;
+	padding: 0 0 0 1em;
+	margin: 0;
+	line-height: 1.5em;
+	color: #999;
+	list-style: none outside
+}
+
+div.rc-anchor-normal {width:280px;}
+div.rc-anchor-logo-portrait {margin:10px 0 0 10px;}
+div.rc-anchor-normal .rc-anchor-pt {margin:4px 29px 0 0;}
+
+.alert {padding:0px;}
+
+
+.single .fusion-sharing-box {
+	margin-top: -10px !important;
+	margin-bottom: -10px !important;
+}
+a.fusion-social-network-icon.fusion-tooltip {
+	color: #151515;
+}
+a.fusion-social-network-icon.fusion-tooltip:hover {
+	color: #fdd112;
+}
+div#text-18 {
+	margin-bottom: 0;
+}
+
+
+.post-content .single_job_listing .company img {
+	float: left;
+	position: relative;
+	left: 0;
+	margin-right: 20px;
+}
+.post-content ul.job-listing-meta.meta {
+	float: left;
+	border: none;
+	clear: none;
+	margin: 0;
+	margin-top: 7px;
+}
+.post-content .wp-job-manager-bookmarks-form {
+	margin: 0;
+	overflow: hidden;
+	border: none;
+	border-bottom-width: 0;
+	line-height: normal;
+	padding-top: 13px;
+}
+.post-content .wp-job-manager-bookmarks-form a.bookmark-notice {
+	margin: 0;
+	display: inline-block;
+	padding: 0;
+	text-decoration: none;
+}
+.post-content .single-navigation {
+	height: auto;
+	line-height: 42px;
+	border-top: none;
+	border-bottom: none;
+	margin-bottom: 0;
+	text-align: right;
+}
+p.name {
+	font-size: 23px;
+}
+li.location a.google_map_link {
+	color: #151515;
+	font-size: 14px;
+}
+.post-content .wp-job-manager-bookmarks-form a.bookmark-notice {
+	color: #151515;
+	font-size: 14px;
+}
+.fusion-page-title-captions h2.job-type{
+	text-transform: uppercase;
+	margin: 0px;
+	font-size: 25px;
+}
+
+
+.single_job_listing .meta .job-type.adults { background-color: #1e73be; }
+.single_job_listing .meta .job-type.director-of-studies { background-color: #be24e5; }
+.single_job_listing .meta .job-type.young-learners { background-color: #dd8f1a; }
+.single_job_listing .meta .job-type.young-learners-and-adults { background-color: #7cd63b; }
+
+@media screen and (max-width: 675px){
+	.single_job_listing .company{
+		float: left;
+	}
+	.post-content .single-navigation {
+		text-align: center;
+		float: left;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 560px){
+	.post-content .single_job_listing .company img {
+		display: none;
+	}
+	.single_job_listing .company{
+		float: left;
+	}
+	.post-content .single-navigation {
+		text-align: center;
+		float: left;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 495px){
+	li.location a.google_map_link {
+		font-size: 11px;
+	}
+	.post-content .wp-job-manager-bookmarks-form a.bookmark-notice {
+		font-size: 11px;
+	}
+	.single_job_listing .meta li{
+		margin: 0 .4em 0 0;
+	}
+	.single_job_listing .meta li:nth-child(4n){
+		margin:0;
+
+	}
+
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.fb_iframe_widget{margin-bottom:15px;}
+
+.fusion-testimonials.clean blockquote q {
+	font-size:14px !important;
+	line-height:20px !important;
+	padding:20px !important;
+	letter-spacing:0px !important;
+}
+
+.fusion-testimonials.clean .author{letter-spacing:0px !important;}
+
+.about-author{
+	background-color: #f9f9f9;
+	padding:15px;
+}
+
+.about-author div.avatar{}
+.reading-box {
+	padding: 28px 28px 8px 31px !important;
+}
+
+.single-post-share{
+	padding:6px 20px 20px 0px;
+	width:462px;
+	margin-bottom:0px;
+}
+
+.fusion-tabs-widget .tab-holder .tab_content .image{
+	height:64px;
+}
+
+.single-post-share .fusion-social-network-icon{
+	margin:0 20px 10px 0 !important;
+	padding:0px;
+}
+
+.fusion-widget-area .widget_categories li a{
+	color:#000 !important;
+}
+
+.qa-share-box{
+	padding:6px 20px 20px 0px;
+	width:462px;
+	margin-bottom:0px;
+	height:5px;
+}
+
+.intesol-banner{
+	min-width:392px;
+}
+
+.widget ul.job_listings li.job_listing ul.meta li{
+	border-left:0px !important;
+}
+
+.fusion-widget-area li a{
+	color:#000 !important;
+}
+
+.fusion-footer-widget-area li a{
+	color:#fff !important;
+}
+
+
+.fusion-pricing-table .panel-footer {
+	background: #ffd112 !important;
+}
+
+.fusion-widget-area li a:hover{
+	color:#ffd112 !important;
+}
+
+.fusion-content-boxes .content-boxes .enrollment-page{
+	margin-bottom:0px !important;
+}
+
+.gform_wrapper .top_label .gfield_label{
+	font-size:18px;
+	font-weight:bold;
+}
+
+.gform_wrapper .gfield_date_dropdown_day, .gform_wrapper .gfield_date_dropdown_month, .gform_wrapper .gfield_date_dropdown_year{
+	vertical-align: top;
+	display: inline-block !important;
+	margin-right: .375em;
+	width:150px;
+
+}
+
+.gform_wrapper select {width:100%;}
+
+.gform_wrapper ul li.gfield{
+	margin-bottom:20px;
+}
+
+.fusion-content-boxes .content-wrapper-background{
+	padding: 35px 35px 0px 35px;
+}
+
+.ginput_container_multiselect select {height:auto !important;}
+
+.medium gfield_select{height:auto !important;}
+
+#input_5_11.medium.gfield_select{height:140px !important;}
+#input_15_11.medium.gfield_select{height:140px !important;}
+#input_27_11.medium.gfield_select{height:140px !important;}
+#input_16_11.medium.gfield_select{height:140px !important;}
+#input_28_11.medium.gfield_select{height:140px !important;}
+#input_24_11.medium.gfield_select{height:140px !important;}
+#input_24_11.medium.gfield_select{height:140px !important;}
+#input_25_11.medium.gfield_select{height:140px !important;}
+
+
+
+.fusion-main-menu .sub-menu li a:hover{
+	color: #ffd112 !important;
+}
+
+.fusion-megamenu-wrapper .fusion-megamenu-submenu .sub-menu a:hover{
+	color: #ffd112 !important;
+	background-color:#f2efef !important;
+}
+
+.fusion-megamenu-submenu li:hover {background-color:#f2efef !important;}
+
+#wrapper #nav .fusion-navbar-nav .fusion-megamenu-wrapper li ul li:hover a {background-color:#f2efef !important;}
+
+.fusion-person .person-name  {
+	color: #000 !important;
+	font-size: 32px !important;
+	font-weight: bold !important;
+}
+
+.fusion-person .person-title  {
+	color: #000 !important;
+	font-size: 18px !important;
+}
+
+.validation_message{color:red;}
+
+.floatton-btn-19018{
+	bottom:50% !important;
+	margin-bottom:-45px !important;
+}
+
+.floatton-btn-19019{
+	bottom:50% !important;
+}
+
+.floatton-btn{
+	position:fixed;
+	top:auto;
+	outline:none;
+	border:0px;
+	z-index:9999;
+	font-size:22px;
+	line-height:28px;
+	padding:10px 16px;
+	border-radius:0;
+	cursor:pointer;
+	-webkit-border-radius:0 !important;
+	-moz-border-radius:0 !important;
+	-ms-border-radius:0 !important;
+	-o-border-radius:0 !important;
+	border-radius:0 !important;
+}
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 textarea { float : none; margin: 0 auto; }
+.wpcf7 { text-align: center; }
+
+
+
+.fusion-megamenu-widgets-container{
+	padding: 0 24px !important;
+}
+.fusion-megamenu-title{
+	padding: 0 24px 15px 24px !important;
+}
+
+
+.fusion-megamenu-wrapper .fusion-megamenu-submenu .sub-menu a {
+	padding: 5px 5px 5px 24px !important;
+
+}
+
+div.job_application .application_button{
+	color: #ffffff;
+	padding: 17px 40px;
+	line-height: 21px;
+	font-size: 18px;
+	box-shadow: none!important;
+	font-family: "PT Sans", Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	letter-spacing: 0px;
+	background: #ffd112;
+	text-transform: uppercase;
+	border-width: 0px;
+	border-style: solid;
+	border-color: #ffffff;
+	border: 1px solid transparent;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+}
+div.job_application .application_button:hover{
+	background: #f4cb38;
+
+}
+.post .fusion-builder-row>p {
+	display: block !important;
+}
+ul.chosen-choices li.search-field input.default{
+	width: 100% !important;
+}
+span.select2-container{
+	width: 100% !important;
+}
+li.select2-search--inline{
+	width: 100% !important;
+}
+li.select2-search--inline input.select2-search__field{
+	width: 100% !important;
+	color: #666 !important;
+}
+.select2-container--default .select2-selection--multiple{
+	border: 1px solid #d2d2d2 !important;
+}

@@ -1,0 +1,25 @@
+.pd-15
+  a.btn.btn-primary href="#{add_topic_path}" 添加topic
+  .panel.panel-default.mt-5
+    .panel-heading    
+      i.fa.fa-reorder 
+      span.ml-10 Topic
+
+    .panel-body
+      .table-responsive
+        table.table
+          thread
+            tr.active
+              th 图片
+              th 标题
+              th 正文
+              th #
+          tbody         
+            - @topics.each do |t|
+              tr
+                td
+                  = image_tag "/topic/#{t.image}", height: '50'
+                td= t.title
+                td= t.content.truncate(20)
+                td
+                  a href="#{delete_topic_path(id: t.id)}" 删除

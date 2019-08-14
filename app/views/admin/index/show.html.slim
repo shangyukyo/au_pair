@@ -1,0 +1,77 @@
+.pd-15
+  .panel.panel-default
+    .panel-heading    
+      i.fa.fa-reorder 
+      span.ml-10 详情
+
+    .panel-body
+      table.table.table-striped
+        tbody
+          tr
+            td 姓名
+            td #{@register.name}
+
+          tr
+            td 性别
+            td= @register.gender
+
+          tr
+            td 婚姻
+            td= @register.marriage
+
+          tr
+            td email
+            td= @register.email        
+
+          tr
+            td 民族
+            td= @register.minzu
+
+          tr
+            td 年龄
+            td= @register.age
+
+          tr
+            td 政治面貌
+            td= @register.zhengzhi
+
+          tr
+            td 籍贯
+            td= @register.jiguan
+
+          tr
+            td 文化程度
+            td= @register.wenhuachengdu              
+
+          tr
+            td 毕业学校
+            td= @register.biyexuexiao
+
+          tr
+            td 专业
+            td= @register.zhuanye
+
+          tr
+            td 毕业时间
+            td= @register.biyeshijian                                                                  
+          tr
+            td 外语水平
+            td= @register.waiyushuiping
+
+          tr
+            td 应聘职位
+            td= @register.yingpinzhiwei
+
+          tr
+            td 联系电话
+            td= @register.lianxidianhua                                    
+
+          tr
+            td 简历文件
+            td
+              a href="/jianli/#{@register.jianli_path}"
+                = @register.jianli_path
+
+          tr
+            td 简历
+            td= @register.jianli                        

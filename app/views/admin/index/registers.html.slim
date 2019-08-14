@@ -1,0 +1,29 @@
+.pd-15
+  .panel.panel-default
+    .panel-heading    
+      i.fa.fa-reorder 
+      span.ml-10 申请表
+
+    .panel-body
+      .table-responsive
+        table.table
+          thread
+            tr.active
+              th 姓名
+              th 性别
+              th 婚姻
+              th email
+              th 民族
+              th 申请时间
+              th #
+          tbody         
+            - @registers.each do |r|
+              tr
+                td= r.name
+                td= r.gender
+                td= r.marriage
+                td= r.email
+                td= r.minzu
+                td= r.created_at.strftime("%F %T")
+                td
+                  a.btn.btn-xs.btn-default href="#{show_path(id: r.id)}" 详情

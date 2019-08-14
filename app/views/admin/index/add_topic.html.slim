@@ -1,0 +1,15 @@
+.pd-15
+  = form_tag url_for, method: 'post', multipart: true, class: 'form'
+
+    .form-group
+      label 图片
+      = file_field_tag :image
+    .form-group
+      label 标题
+      = text_field_tag :title, nil, class: 'form-control'
+    .form_group
+      label 正文
+      = text_area_tag :content, nil, class: 'form-control', rows: '20'
+
+    .form-group.mt-5
+      = submit_tag '提交', class: 'btn btn-primary'
