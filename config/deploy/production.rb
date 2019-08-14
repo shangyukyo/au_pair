@@ -60,7 +60,7 @@
 #     # password: "please use keys"
 #   }
 
-set :deploy_to, '~/www/waijiao/'
+set :deploy_to, '~/www/au_pair/'
 
 # server '115.29.167.37',
 #   user: 'shopshow',
