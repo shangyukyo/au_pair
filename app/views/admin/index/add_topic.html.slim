@@ -5,8 +5,18 @@
       label 图片
       = file_field_tag :image
     .form-group
+      label 姓名
+      = text_field_tag :name, nil, class: 'form-control'      
+
+
+    .form-group
       label 标题
       = text_field_tag :title, nil, class: 'form-control'
+
+    .form-group
+      label 简洁
+      = text_field_tag :description, nil, class: 'form-control'      
+            
     .form_group
       label 正文
       = text_area_tag :content, nil, class: 'form-control', rows: '20'

@@ -37,6 +37,8 @@ class Admin::IndexController < Admin::ApplicationController
 
       topic = Topic.new
       topic.image = filename
+      topic.name = params[:name]
+      topic.description = params[:description]
       topic.title = params[:title]
       topic.content = params[:content]
       topic.save
