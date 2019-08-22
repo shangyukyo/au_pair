@@ -73,12 +73,12 @@ set :deploy_to, '~/www/au_pair/'
 #     password: 'Shopshow123456chuheridangwu'
 #   }
 
-server '47.95.223.242',
-  user: 'duole',
+server '47.104.101.73',
+  user: 'zgp',
   roles: %w{web app db},
   ssh_options: {
-    user: 'duole', # overrides user setting above
+    user: 'zgp', # overrides user setting above
     # keys: %w(/home/ssapp/.ssh/id_rsa),
     forward_agent: false,
     auth_methods: %w(publickey password)    
-  }
+  }# server-based syntax

@@ -24,6 +24,7 @@ Rails.application.routes.draw do
       
       get :contact_us
       get :register
+      get :topic
       post :register
     end
   end

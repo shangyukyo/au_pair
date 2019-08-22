@@ -72,6 +72,11 @@ class WelcomeController < ApplicationController
     @title = "联系我们"
   end
 
+  def topic
+    @t = Topic.find params[:id]
+    render layout: false
+  end
+
   def register
     if request.post?
       params.permit!
