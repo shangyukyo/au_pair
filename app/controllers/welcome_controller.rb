@@ -44,7 +44,7 @@ class WelcomeController < ApplicationController
 
 
   def waiguo_huhui_about_aupair
-    @title = '什么是au-pair'
+    @title = '什么是Aupair(互惠生)'
   end
 
   def waiguo_huhui_zeren_yiwu
@@ -70,6 +70,21 @@ class WelcomeController < ApplicationController
 
   def contact_us
     @title = "联系我们"
+  end
+
+  def add_contact
+    c = Contact.new
+    c.name = params[:name]
+    c.gender = params[:gender]
+    c.city = params[:city]
+    c.other_city = params[:other_city]
+    c.range_time = params[:range_time]
+    c.email = params[:email]
+    c.mobile = params[:mobile]
+    c.wechat = params[:wechat]
+    c.content = params[:content]
+    c.save
+    redirect_to contact_us_welcome_index_path
   end
 
   def topic

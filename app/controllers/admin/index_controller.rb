@@ -24,6 +24,10 @@ class Admin::IndexController < Admin::ApplicationController
     @topics = Topic.all.order('id DESC')
   end
 
+  def contacts
+    @cs = Contact.all
+  end
+
   def add_topic
     if request.post?
       params.permit!

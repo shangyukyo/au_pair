@@ -12,6 +12,10 @@ html
 
       ul.nav.nav-pills.nav-stacked
         li
+          a href="#{contacts_path}"  class="#{params[:action] == 'contacts' ? 'selected' : nil}"
+            i.fa.fa-list 
+            span.ml-5 联系列表            
+        li
           a href="#{registers_path}"  class="#{params[:action] == 'yijianxiang' ? 'selected' : nil}"
             i.fa.fa-list 
             span.ml-5 申请表      

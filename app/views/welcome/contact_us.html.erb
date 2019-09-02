@@ -102,18 +102,18 @@ form td {
 }  
 </style>
 
-<form onsubmit="check_formName(this);return false;" name="formName" id="formName" method="post" action="/Chinese/Apply/Save">
+<form onsubmit="check_formName(this);return false;" name="formName" id="formName" method="post" action="/welcome/add_contact">
                                                     <table cellpadding="0" cellspacing="0" width="400">
                                                         <tbody>
                                                             <tr>
                                                                 <td>
                                                                     尊姓<span>*</span>
-                                                                    <input class="form_input" style="width: 185px;height: 25px;border: 1px solid #ccc;background: #fff;  " name="FirstName" type="text" id="STR_S01">
+                                                                    <input class="form_input" style="width: 185px;height: 25px;border: 1px solid #ccc;background: #fff;  " name="name" type="text" id="STR_S01">
                                                                     <br>
                                                                 </td>
                                                                 <td>
                                                                     先生/女士<span>*</span><br>
-                                                                    <select class="form_select" name="LastName" style="">
+                                                                    <select class="form_select" name="gender" style="">
                                                                         <option value="先生">先生</option>
                                                                         <option value="女士">女士</option>
                                                                     </select>
@@ -122,7 +122,7 @@ form td {
                                                             <tr>
                                                                 <td>
                                                                     所在地区<span>*</span><br>
-                                                                    <select name="Location" class="form_select" id="STR_S05">
+                                                                    <select name="city" class="form_select" id="STR_S05">
                                                                       <option>北京</option>
                                                                         <option>上海</option>
                                                                         <option>南京</option>                                                                        
@@ -150,13 +150,13 @@ form td {
                                                                 </td>
                                                                 <td>
                                                                     其它地区具体名称（某省某市）<br>
-                                                                    <input name="CountryOther" style="width: 185px;height: 25px;border: 1px solid #ccc;background: #fff;  " type="text" id="STR_S04">
+                                                                    <input name="other_city" style="width: 185px;height: 25px;border: 1px solid #ccc;background: #fff;  " type="text" id="STR_S04">
                                                                 </td>
                                                             </tr>
                                                             <tr>
                                                                 <td>
                                                                     项目长度<span>*</span><br>
-                                                                    <select name="Length" class="form_select" id="temp">
+                                                                    <select name="range_time" class="form_select" id="temp">
                                                                         <option value="0">请选择</option>
                                                                         <option value="三个月">三个月</option>
                                                                         <option value="半年">半年</option>                                                                        
@@ -172,25 +172,25 @@ form td {
                                                             <tr>
                                                                 <td colspan="2" class="email">
                                                                     电子邮件：（必填）<span>*</span><br>
-                                                                    <input name="Email" style="width: 185px;height: 25px;border: 1px solid #ccc;background: #fff;  " type="text" id="STR_S08">
+                                                                    <input name="email" style="width: 185px;height: 25px;border: 1px solid #ccc;background: #fff;  " type="text" id="STR_S08">
                                                                 </td>
                                                             </tr>
                                                             <tr>
                                                                 <td colspan="2" class="email">
                                                                     联系电话：（必填）<span>*</span><br>
-                                                                    <input name="Telephone" style="width: 360px;height: 25px;border: 1px solid #ccc;background: #fff;  " type="text" id="STR_S13">
+                                                                    <input name="mobile" style="width: 360px;height: 25px;border: 1px solid #ccc;background: #fff;  " type="text" id="STR_S13">
                                                                 </td>
                                                             </tr>
                                                             <tr>
                                                                 <td colspan="2" class="email">
                                                                     微信号码（建议填写）<br>
-                                                                    <input name="Facebook" style="width: 360px;height: 25px;border: 1px solid #ccc;background: #fff;  " type="text" id="STR_S10">
+                                                                    <input name="wechat" style="width: 360px;height: 25px;border: 1px solid #ccc;background: #fff;  " type="text" id="STR_S10">
                                                                 </td>
                                                             </tr>
                                                             <tr>
                                                                 <td colspan="2">
                                                                     其他要求或留言<br>
-                                                                    <textarea name="RequestsInfo" style="width: 360px;height: 25px;border: 1px solid #ccc;background: #fff;  " id="IFO_I01"></textarea>
+                                                                    <textarea name="content" style="width: 360px;height: 25px;border: 1px solid #ccc;background: #fff;  " id="IFO_I01"></textarea>
                                                                 </td>
                                                             </tr>
                                                             <tr>

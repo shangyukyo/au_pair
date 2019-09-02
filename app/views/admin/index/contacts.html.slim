@@ -1,0 +1,34 @@
+.pd-15
+  .panel.panel-default
+    .panel-heading    
+      i.fa.fa-reorder 
+      span.ml-10 联系列表
+
+    .panel-body
+      .table-responsive
+        table.table
+          thread
+            tr.active
+              th 姓名
+              th 性别
+              th 所在地区
+              th 其他地区
+              th 项目长度              
+              th email
+              th 微信
+              th 其他需求
+              th 联系时间
+              th #
+          tbody         
+            - @cs.each do |r|
+              tr
+                td= r.name
+                td= r.gender
+                td= r.city
+                td= r.other_city
+                td= r.range_time
+                td= r.email
+                td= r.wechat
+                td= r.content
+                td= r.created_at.strftime("%F %T")
+                td                  

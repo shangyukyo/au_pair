@@ -1,0 +1,107 @@
+Searching 106 files for "ASC" (case sensitive)
+
+/Users/macbookpro/Workspaces/au_pair/app/views/welcome/huhui_jiating_faq.html.erb:
+   97                <div id="1299ccd1776204bd8" class="panel-collapse collapse ">
+   98                 <div class="panel-body toggle-content fusion-clearfix">
+   99:                   目前ASC为您选拔和配对的互惠生来自超过10个国家和地区，包括：德国、法国、英国、荷兰、比利时、意大利、加拿大、美国、墨西哥、哥伦比亚等。
+  100                 </div>
+  101                </div>
+  ...
+  113                <div id="dd5862562bb0c813d" class="panel-collapse collapse ">
+  114                 <div class="panel-body toggle-content fusion-clearfix">
+  115:                 来自不同国家和地区的互惠生的母语各种各样，如英语、德语、法语、西班牙语等等。但是无论互惠生来自哪个国家，他们都必须具备一定的英语水平。ASC选送的互惠生的英语水平在中等以上，口语流利且无明显口音。一部分互惠生来华前已有中文基础，ASC也会提供汉语课帮助来华互惠生更好适应在中国的互惠生活。
+  116                 </div>
+  117                </div>
+  ...
+  167                <div id="b14e02decf6714d83" class="panel-collapse collapse ">
+  168                 <div class="panel-body toggle-content fusion-clearfix">
+  169:                 互惠生经历过严格的背景调查和审核。在申请阶段，除了常规的项目申请材料，须参加45分钟以上的英语面试，提交在本国的无犯罪记录证明，注册医生签字和盖章的健康证明，最高学历证明，以及至少各一份的性格推荐信和照顾儿童经验推荐信。上述资料均须通过ASC在海外的合作机构工作人员的亲自审核和验证。
+  170                 </div>
+  171                </div>
+  ...
+  224                <div id="b14e02decf6714d83" class="panel-collapse collapse ">
+  225                 <div class="panel-body toggle-content fusion-clearfix">
+  226:                 选择合适的互惠生候选人是互惠项目成功的关键之一，ASC会竭力帮助互惠家庭甑选合适的候选人。在收到候选人资料后，我们会协助家庭与互惠生建立初步联系，例如互通电子邮件或预约初次电话面试。ASC将指导家庭针对自家情况和该候选人应该准备的适当的问题，引导双方就各自最关注的问题进行交流。直至双方配对成功，ASC会协助双方完成《家庭-互惠生协议》。
+  227                 </div>
+  228                </div>
+  ...
+  319                <div id="b14e02decf6714d83" class="panel-collapse collapse ">
+  320                 <div class="panel-body toggle-content fusion-clearfix">
+  321:                 大部分的互惠家庭与互惠生都会拥有一段互助互爱和难忘的经历，ASC的配对程序也会尽力保障您的家庭配对到合适的互惠生。在少数的问题情况下，ASC的地方家庭代表会尝试替双方调解问题。如果问题仍无法得到解决，ASC会协助家庭二次配对新的互惠生；同时原互惠生也将进入重新匹配或者提前结束项目回国。
+  322                 </div>
+  323                </div>
+
+/Users/macbookpro/Workspaces/au_pair/app/views/welcome/huhui_jiating_feiyong_biaozhun.html.erb:
+   80  
+   81                <h3>以上项目费用说明</h3>
+   82:               <p>由于项目本身的特殊性，ASC国际互惠生项目的整体收费标准必须考虑到外国互惠生本身的全部成本，因此对于第一次邀请互惠生的朋友们来说，必须要澄清下：我们的项目费用包含</p>
+   83  
+   84                <table border="1" style="font-size: 16px;width: 80%">
+   85                  <tr>
+   86                    <td style="padding: 15px;">互惠家庭申请费用</td>
+   87:                   <td style="padding: 15px;">ASC国际国内项目推广费用，互惠生招募，互惠生家庭招募，匹配费用，互惠生本身成本。</td>                  
+   88                  </tr>
+   89                  <tr>
+
+/Users/macbookpro/Workspaces/au_pair/app/views/welcome/huhui_jiating_huhui_fenxi.html.erb:
+  149  
+  150  
+  151: <p style="font-size: 16px;">如果生活中发生了一些矛盾，互惠学生往往会通过先忍耐再协商的态度来和家庭沟通。所以建议家庭要认真对待他们反应的问题，ASC工作人员也会及时协助。与他们沟通还是很容易的，他们既不像美国学生那样主见强烈，也不像德国学生那样容易固执。当然，由于中西文化的总体差异，直接沟通，有事当面指出并解决，对于法国意大利学生也同样有效。</p>
+  152  
+  153  
+
+/Users/macbookpro/Workspaces/au_pair/app/views/welcome/huhui_jiating_shenqing_tiaojian.html.erb:
+   60  <p>选择成为“互惠家庭”，意味着您为您和其他家庭成员选择了一种新的生活方式：您需要以迎接一名新的家庭成员的姿态欢迎互惠生，以尊重、包容和理解的心态去看待异国文化和习俗，同时也要尝试将互惠生纳入家庭生活，诸如家庭聚餐、出行、休闲娱乐活动等等，使之有机会了解中国文化和社会，并且更好地融入您的家庭。</p>
+   61  <h2>申请流程</h2>
+   62: <p>成为互惠家庭，您需要大致经历如下流程，通常办理时间在2到4个月左右。请估算好您希望邀请互惠生入住的时间并和ASC工作人员及时沟通您的具体需求。</p>
+   63  <p>1）初步咨询：互惠家庭与我中心联系，中心工作人员将耐心向您：介绍中西方文化差异，互惠生和家庭的分别责任和义务，互惠条件和流程，以及常见问题。您可以通过QQ、电话、EMAIL、微信等向我们咨询，我们更欢迎您到我们的办公室进行面对面的交流。</p>
+   64  <p>2）深度沟通：初步咨询后，您可以向本中心工作人员索要资料后，与家庭成员之间进行协商沟通。如有疑虑，可以通过电话QQ微信等、上门家访、来我中心，把自己和家人关心的问题与本中心工作人员进行沟通，我们会根据家庭的具体情况，给出合适的建议，为您定制符合自身喜好、专业背景的互惠方案。</p>
+   65  <p>3）申请资料：填写互惠家庭申请表，包括家庭信息、喜好等填写，给互惠生的一封信，互惠家庭照片（这个很重要，最好是全家人的照片、家庭居住环境照片比如给互惠生安排的房间等）。</p>
+   66: <p>4）互惠生参考：ASC将根据家庭的意向选择一些合适的互惠生供您参考。</p>
+   67: <p>5）签约付款：在家庭对ASC项目已深刻了解并确认能参加ASC互惠生项目后，签订互惠生委托协议和支付一定比例的款项。</p>
+   68  <p>6）匹配确认：将备选互惠生和家庭分别发给对方，相互了解各自情况并确认要进一步了解后进行视频面试，直至最终确定相应互惠生。</p>
+   69  <p>7）来华签证：中心准备互惠生的来华签证材料，签证材料包括互惠生准备的其他材料较多，如无犯罪记录证明、健康证明等此项目必备的一些材料。请家庭耐心等待，我中心会不定时汇报进展。</p>
+   ..
+   85  <a href="../teach-english-in-shanghai/index.html"><img class="alignright size-full wp-image-1115" title="Teach English in Beijing - Adults" src="../wp-content/uploads/2012/03/Adults-Collage.jpg" alt="Teach English in Beijing - Adults" width="500" height="305" srcset="../wp-content/uploads/2012/03/Adults-Collage-300x168.jpg 300w, ../wp-content/uploads/2012/03/Adults-Collage-1024x576.jpg 1024w, ../wp-content/uploads/2012/03/Adults-Collage.jpg 5120w" sizes="(max-width: 720px) 100vw, 720px" /></a></p>
+   86  
+   87: <p style="text-align: left;">另：ASC对于互惠生培训是非常具体细致的，在互惠生相处过程中，以及每一次中文课上我们都会关心互惠生与小孩、家庭成员的相处情况，并及时指导，及时沟通。
+   88  </p>
+   89  <p style="line-height: 24px;">
+
+/Users/macbookpro/Workspaces/au_pair/app/views/welcome/waiguo_huhui_beijing_hanyuan.html.erb:
+   69  <strong style="color: rgb(255, 255, 255); max-width: 100%; word-wrap: break-word !important; box-sizing: border-box !important;"><span class="main" glowfont="display:inline-block; color:white; text-shadow:1px 0 4px #ff0000,0 1px 4px #ff0000,0 -1px 4px #ff0000,-1px 0 4px #ff0000;filter:glow(color=#ff0000,strength=3)" style="max-width: 100%; display: inline-block; text-shadow: rgb(0, 187, 236) 1px 0px 4px, rgb(0, 187, 236) 0px 1px 4px, rgb(0, 187, 236) 0px -1px 4px, rgb(0, 187, 236) -1px 0px 4px; word-wrap: break-word !important; box-sizing: border-box !important;"><p glowfont="display:inline-block; color:white; text-shadow:1px 0 4px #ff0000,0 1px 4px #ff0000,0 -1px 4px #ff0000,-1px 0 4px #ff0000;filter:glow(color=#ff0000,strength=3)" style="max-width: 100%; display: inline-block; text-shadow: rgb(0, 187, 236) 1px 0px 4px, rgb(0, 187, 236) 0px 1px 4px, rgb(0, 187, 236) 0px -1px 4px, rgb(0, 187, 236) -1px 0px 4px; word-wrap: break-word !important; box-sizing: border-box !important;">语言文化学习</p></strong>
+   70    
+   71:   <p>周一到周五每天上午需要到ASC机构中心或当地大学去学习中国汉语和文化，就像您的大孩子一样，因为他们来到中国的最大希望就是学习中国语言和中国文化</p>
+   72  
+   73  
+   ..
+  105             <div class="fusion-title title fusion-sep-none fusion-title-center fusion-title-size-one fusion-border-below-title" style="margin-top:5px;margin-bottom:15px;">
+  106              <h1 class="title-heading-center" data-fontsize="38" data-lineheight="41">Aupair的&nbsp;<span style="color: #fdd112;">项目培训</span></h1>
+  107:               <p><h3>ASC互惠生培训大体分为：临行前培训、入住家庭前培训和入住家庭后持续培训。</h3></p>
+  108             </div>
+  109             <div class="fusion-clearfix"></div> 
+
+/Users/macbookpro/Workspaces/au_pair/app/views/welcome/waiguo_huhui_zeren_yiwu.html.erb:
+   71  
+   72  
+   73:         <%- Topic.all.order('id ASC').each_with_index  do |topic, index|%>
+   74  
+   75            <div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_4 <%= (index + 1  == 1 || index % 4 == 0) ? 'fusion-column-first' : nil%>  fusion-one-fourth  1_4"  style='margin-top:0px;margin-bottom:20px;width:21%; margin-right: 4%;'>
+
+21 matches across 6 files
+
+
+Searching 106 files for "id 北京" (case sensitive)
+
+0 matches
+
+Searching 106 files for "向汉院支付" (case sensitive)
+
+/Users/macbookpro/Workspaces/au_pair/app/views/welcome/huhui_jiating_shenqing_tiaojian.html.erb:
+   79  <p>家庭成员中至少有一名人员能够简单日常英语沟通；</p>
+   80  <p>能够给互惠生提供单独的房间和一日三餐（或者食材）；</p>
+   81: <p>向北京汉院支付包括对互惠生国际机票、保险、签证、留学课程、文化课等补贴在内的项目费用；</p>
+   82  <p>给互惠生提供每月1000-1500元的零花钱。</p>
+   83  
+
+1 match in 1 file
