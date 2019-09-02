@@ -1,0 +1,25 @@
+.pd-15
+  = form_tag update_topic_path(id: @topic.id), method: 'post', multipart: true, class: 'form'
+
+    / .form-group
+    /   label 图片
+    /   = file_field_tag :image, @topic.image
+    .form-group
+      label 姓名
+      = text_field_tag :name, @topic.name, class: 'form-control'      
+
+
+    .form-group
+      label 标题
+      = text_field_tag :title, @topic.title, class: 'form-control'
+
+    .form-group
+      label 简洁
+      = text_field_tag :description, @topic.description, class: 'form-control'      
+            
+    .form_group
+      label 正文
+      = text_area_tag :content, @topic.content, class: 'form-control', rows: '20'
+
+    .form-group.mt-5
+      = submit_tag '提交', class: 'btn btn-primary'

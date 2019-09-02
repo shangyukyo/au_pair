@@ -46,6 +46,20 @@ class Admin::IndexController < Admin::ApplicationController
     end
   end
 
+  def edit_topic
+    @topic = Topic.find params[:id]
+  end
+
+  def update_topic
+    @topic = Topic.find params[:id]
+    @topic.name = params[:name]
+    @topic.description = params[:description]
+    @topic.title = params[:title]
+    @topic.content = params[:content]
+    @topic.save
+    redirect_to topics_path
+  end
+
   def delete_topic
     Topic.find(params[:id]).destroy
     redirect_to topics_path

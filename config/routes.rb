@@ -40,6 +40,8 @@ Rails.application.routes.draw do
       get  :topics
       get  :add_topic
       post :add_topic
+      get  :edit_topic
+      post :update_topic
       get  :delete_topic
     end
   end  
