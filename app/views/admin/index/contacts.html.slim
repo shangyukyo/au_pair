@@ -13,12 +13,12 @@
               th 性别
               th 所在地区
               th 其他地区
-              th 项目长度              
+              th 项目长度 
+              th 联系电话             
               th email
               th 微信
               th 其他需求
-              th 联系时间
-              th #
+              th 联系时间              
           tbody         
             - @cs.each do |r|
               tr
@@ -27,8 +27,9 @@
                 td= r.city
                 td= r.other_city
                 td= r.range_time
+                td= r.mobile
                 td= r.email
                 td= r.wechat
                 td= r.content
                 td= r.created_at.strftime("%F %T")
-                td                  
+                              
