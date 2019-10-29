@@ -3,7 +3,7 @@
 # config valid only for current version of Capistrano
 lock '3.4.1'
 
-set :application, 'au_pair'
+set :application, 'au_pair_simple'
 set :repo_url, 'git@github.com:shangyukyo/au_pair.git'
 
 # Default branch is :master
