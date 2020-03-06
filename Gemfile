@@ -24,7 +24,7 @@ gem 'uglifier', '>= 1.3.0'
 
 
 # Bootstrap for UI
-gem 'bootstrap-sass', '~> 3.3.6'
+gem 'bootstrap-sass', '~> 3.4.1'
 
 # Slim for Template
 gem 'slim', '~> 3.0.6'
