@@ -18,7 +18,8 @@
               th email
               th 微信
               th 其他需求
-              th 联系时间              
+              th 联系时间 
+              th #             
           tbody         
             - @cs.each do |r|
               tr
@@ -32,4 +33,6 @@
                 td= r.wechat
                 td= r.content
                 td= r.created_at.strftime("%F %T")
+                td
+                  a href="#{delete_contact_path(id: t.id)}" 删除
                               

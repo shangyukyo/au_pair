@@ -69,4 +69,9 @@ class Admin::IndexController < Admin::ApplicationController
     redirect_to topics_path
   end
 
+  def delete_contact
+    Contact.find(params[:id]).destroy
+    redirect_to contacts_path    
+  end
+
 end

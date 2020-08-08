@@ -96,11 +96,13 @@ class WelcomeController < ApplicationController
     if request.post?
       params.permit!
 
-      ext = params[:jianli_path].original_filename.split('.').last
-      filename = "#{Base64.urlsafe_encode64(SecureRandom.hex, padding: false)}.#{ext}"
-      File.open("#{Rails.root}/public/jianli/#{filename}", "wb+") do |f|
-        f.write(params[:jianli_path].read)
-      end 
+      if params[:jianli_path].present?
+        ext = params[:jianli_path].original_filename.split('.').last
+        filename = "#{Base64.urlsafe_encode64(SecureRandom.hex, padding: false)}.#{ext}"
+        File.open("#{Rails.root}/public/jianli/#{filename}", "wb+") do |f|
+          f.write(params[:jianli_path].read)
+        end 
+      end
 
       r = Register.new
       r.name = params[:name]
