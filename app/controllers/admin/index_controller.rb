@@ -25,7 +25,7 @@ class Admin::IndexController < Admin::ApplicationController
   end
 
   def contacts
-    @cs = Contact.all
+    @cs = Contact.all.order('id DESC')
   end
 
   def add_topic
