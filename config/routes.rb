@@ -45,6 +45,7 @@ Rails.application.routes.draw do
       post :update_topic
       get  :delete_topic
       get  :delete_contact
+      get  :delete_register
       get  :contacts
     end
   end  

@@ -74,4 +74,8 @@ class Admin::IndexController < Admin::ApplicationController
     redirect_to contacts_path    
   end
 
+  def delete_register
+    Register.find(params[:id]).destroy
+    redirect_to registers_path    
+  end
 end

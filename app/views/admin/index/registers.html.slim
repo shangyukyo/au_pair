@@ -27,3 +27,4 @@
                 td= r.created_at.strftime("%F %T")
                 td
                   a.btn.btn-xs.btn-default href="#{show_path(id: r.id)}" 详情
+                  a.btn.btn-danger.btn-xs style="margin-left: 5px;" href="#{delete_register_path(id: r.id)}" 删除
