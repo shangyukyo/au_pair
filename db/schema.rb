@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 2019_09_02_033052) do
 
-  create_table "contacts", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+  create_table "contacts", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb3", force: :cascade do |t|
     t.string "name"
     t.string "gender"
     t.string "city"
@@ -26,7 +26,7 @@ ActiveRecord::Schema.define(version: 2019_09_02_033052) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "registers", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+  create_table "registers", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb3", force: :cascade do |t|
     t.string "name"
     t.string "gender"
     t.string "marriage"
@@ -48,7 +48,7 @@ ActiveRecord::Schema.define(version: 2019_09_02_033052) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "topics", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+  create_table "topics", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb3", force: :cascade do |t|
     t.string "image"
     t.string "name"
     t.string "title"
