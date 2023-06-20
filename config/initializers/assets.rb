@@ -17,4 +17,10 @@ Rails.application.config.assets.precompile += %w(
 	fusion-shortcodes.min-ver=1.7.2.css
 	animations.min-ver=1.7.2.css
 	pum-site-styles-generated.css
+
+	greensock-ver=1.19.0.js
+	layerslider.kreaturamedia.jquery-ver=6.7.6.js
+	layerslider.transitions-ver=6.7.6.js
+	jquery.themepunch.tools.min-ver=5.4.7.4.js
+	jquery.themepunch.revolution.min-ver=5.4.7.4.js
 )
